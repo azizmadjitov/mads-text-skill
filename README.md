@@ -10,7 +10,7 @@ Three skills for Claude Code. Each one is a set of rules that Claude loads befor
 | [mads-uxwrite](mads-uxwrite/SKILL.md) | `/mads-uxwrite` | Interface strings: buttons, titles, field labels, errors, empty states, push notifications, string catalogs |
 | [mads-translate](mads-translate/SKILL.md) | `/mads-translate` | Translating and localizing text or string files |
 
-All three skills work on text in any language. The files of mads-humanizer and mads-uxwrite are written in Russian, mads-translate is written in English.
+All three skills work on text in any language. mads-humanizer and mads-translate are written in English, mads-uxwrite is written in Russian.
 
 ## What each skill does
 

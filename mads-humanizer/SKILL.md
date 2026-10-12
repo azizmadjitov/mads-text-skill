@@ -3,172 +3,172 @@ name: mads-humanizer
 description: "Use when writing or editing any text a person will read, in any language: chat replies, docs, README, UI copy, commit messages, code comments, emails, posts, articles, legal texts. Also when asked to make a text sound human, remove AI tells, humanize it, get it past an AI detector, or check whether a text looks generated («звучит как нейронка», «палится ИИ», «очеловечь», «перепиши по-человечески»)."
 ---
 
-# Человеческий текст
+# Human writing
 
-## Суть
+## The point
 
-Сгенерированный текст выдаёт себя тем, что на месте фактов в нём стоят общие слова. Модель берёт статистически среднюю формулировку и выбрасывает редкую деталь: вместо «изобрёл первое сцепное устройство для поездов» выходит «совершил революцию в промышленности».
+Generated text gives itself away by putting general words where facts should be. A model takes the statistically average wording and drops the rare detail: “invented the first coupling device for trains” becomes “revolutionized the industry”.
 
-Правила собраны из эссе русской Википедии «Признаки сгенерированности текста» (ВП:ПРГЕН). Они действуют для любого текста, который прочтёт человек, на любом языке и при любом объёме.
+The rules are collected from the Russian Wikipedia essay «Признаки сгенерированности текста» (ВП:ПРГЕН). They apply to any text a person will read, in any language and at any length.
 
-Нарушение буквы правила считается нарушением правила. Замена запрещённого оборота синонимом исправлением не считается: «играет ключевую роль» и «имеет огромное значение» работают одинаково. Исправление одно: перестроить фразу вокруг факта или убрать её.
+Breaking the letter of a rule is breaking the rule. Replacing a banned phrase with a synonym does not count as a fix: “plays a key role” and “is of great importance” work the same way. There is one fix: rebuild the sentence around the fact or delete it.
 
-Чужие цитаты, код и имена собственные не правятся. Прямое указание пользователя о формате или формулировке сильнее этого списка.
+Other people's quotes, code and proper names are not edited. A direct instruction from the user about format or wording outranks this list.
 
-## Как писать
+## How to write
 
-1. Сначала реши, что именно сообщаешь. Если факта, числа, имени или примера нет, найди его или не пиши предложение.
-2. Подлежащим ставь того, кто действует: «команда выпустила», «суд отклонил». Факты и события ничего не «подчёркивают» и не «демонстрируют».
-3. Бери простые глаголы: «это», «есть», «делает», «находится» вместо «является», «представляет собой», «служит», «выступает».
-4. Одну вещь называй одним словом весь текст. Повтор слова лучше, чем «главный герой» и «ключевой игрок» вместо имени.
-5. Мысль говори один раз. Текст кончается там, где кончилось содержание. Причина («зачем мы это сделали») и прямая просьба к читателю («попробуйте и напишите, где ошиблось») относятся к содержанию, их не вырезай.
-6. Перечисляй столько пунктов, сколько есть на деле: два так два, четыре так четыре.
-7. Не знаешь, так и пиши: «не знаю», «не проверял». Мнение приписывай тому, кто его высказал, с именем.
-8. Длину предложений задаёт содержание. Не выравнивай их и не строй симметричных пар. Связывай предложения причинами («потому что», «поэтому», «но»): столбик коротких фактов без связок читается как справка.
-9. Тон выбирай по читателю. Коллеге пишут как коллеге, без лекции и без рекламы.
+1. First decide what exactly you are reporting. If there is no fact, number, name or example, find one or do not write the sentence.
+2. Make the subject whoever acts: “the team shipped”, “the court rejected”. Facts and events do not “underscore” or “demonstrate” anything.
+3. Use plain verbs: “is”, “has”, “does”, “makes” in place of “serves as”, “represents”, “constitutes”, “acts as”. In Russian: «это», «есть», «делает», «находится» in place of «является», «представляет собой», «служит», «выступает».
+4. Call one thing by one word through the whole text. A repeated word is better than “the protagonist” and “the key player” in place of the name.
+5. Say a thought once. The text ends where the content ends. The reason (“why we did this”) and a direct request to the reader (“try it and tell us where it went wrong”) are content, do not cut them.
+6. List as many items as there really are: two means two, four means four.
+7. If you do not know, write exactly that: “I don't know”, “I didn't check”. Attribute an opinion to the person who voiced it, by name.
+8. Content sets the length of a sentence. Do not even sentences out and do not build symmetric pairs. Link sentences with reasons (“because”, “so”, “but”): a column of short facts with no connectives reads like a reference card.
+9. Choose the tone for the reader. You write to a colleague as a colleague, without a lecture and without an ad.
 
-## Стоп-лист
+## Stop list
 
-Списки оборотов даны на русском и английском. В тексте на другом языке запрещены те же приёмы: перевод оборота из списка считается оборотом из списка.
+The phrase lists are in Russian and English. In a text in any other language the same devices are banned: a translation of a listed phrase counts as a listed phrase.
 
-### 1. Значимость и символизм
+### 1. Significance and symbolism
 
-Нельзя раздувать значение обычных вещей.
+Do not inflate the significance of ordinary things.
 
 - ru: «играет важную / ключевую / значительную роль», «служит / выступает / является напоминанием», «подчёркивает важность», «символизирует устойчивое влияние», «ключевой / поворотный момент», «неизгладимый след», «непоколебимо предан своему делу», «Хотя X малоизвестен, он символизирует…»
 - en: stands as a testament, serves as a reminder, plays a vital / pivotal / crucial role, underscores its importance, enduring legacy, turning point, indelible mark
 
-Пиши, что произошло и что после этого изменилось.
+Write what happened and what changed after it.
 
-### 2. Известность и упоминания
+### 2. Notability and mentions
 
-Нельзя доказывать важность перечнем изданий и называть источник в тексте ради бесспорного факта.
+Do not prove importance with a list of outlets, and do not name a source in the text for the sake of an undisputed fact.
 
-- ru: «освещался в ряде СМИ, включая…», «независимое освещение», «в местных / региональных / национальных СМИ», «деловые / технологические издания», «Согласно документам из…» перед очевидной цифрой
+- ru: «освещался в ряде СМИ, включая…», «независимое освещение», «в местных / региональных / национальных СМИ», «деловые / технологические издания», «Согласно документам из…» before an obvious number
 - en: has been featured in, independent coverage, local / national media outlets
 
-Пиши, что сказал конкретный источник, или не упоминай его.
+Write what a specific source said, or do not mention it.
 
-### 3. Поверхностный анализ
+### 3. Shallow analysis
 
-Нельзя заканчивать фразу деепричастным хвостом с оценкой и приписывать действия фактам.
+Do not end a sentence with a participle tail that carries a judgment, and do not attribute actions to facts.
 
-- ru: «…, подчёркивая…», «…, демонстрируя…», «…, отражая…», «…, ещё больше усиливая…», глаголы «обеспечивает», «выделяет», «отражает», «влияет», «соответствует», «содействует» при неодушевлённом подлежащем
+- ru: «…, подчёркивая…», «…, демонстрируя…», «…, отражая…», «…, ещё больше усиливая…», the verbs «обеспечивает», «выделяет», «отражает», «влияет», «соответствует», «содействует» with an inanimate subject
 - en: highlighting, underscoring, showcasing, reflecting, ensuring, fostering, contributing to, aligns with
 
-Ставь точку после факта. Вывод пиши, только когда он чей-то, и с именем автора.
+Put a period after the fact. Write a conclusion only when it is someone's, and name the author.
 
-### 4. Рекламный тон
+### 4. Promotional tone
 
-Нельзя хвалить предмет оценочными эпитетами.
+Do not praise the subject with evaluative epithets.
 
 - ru: «богатый», «яркий», «разнообразный», «динамичный», «живописный», «уникальный», «захватывающий дух», «потрясающая природная красота», «вековое наследие», «богатое культурное наследие», «может похвастаться», «продолжает очаровывать», «расположенный в самом сердце», «имеет культурное / художественное значение», «В этой статье мы рассмотрим…»
 - en: rich, vibrant, diverse, breathtaking, stunning, renowned, groundbreaking, boasts, nestled in the heart of, continues to captivate, rich cultural heritage
 
-Замени оценку измеримым свойством: год, размер, число, название.
+Replace the evaluation with a measurable property: year, size, number, name.
 
-### 5. Оговорки и поучения
+### 5. Hedges and lecturing
 
 - ru: «важно / необходимо / критично отметить», «стоит отметить / учесть / помнить», «следует подчеркнуть», «значения могут варьироваться», «крайне важно отличать»
 - en: it's important to note, it's worth noting, keep in mind, may vary
 
-Сообщи сам факт. Риск называй прямо: что случится и при каком условии.
+State the fact itself. Name a risk directly: what will happen and under what condition.
 
-### 6. Итоги и заключения
+### 6. Summaries and conclusions
 
-- ru: «В заключение», «Вкратце», «В целом», «Подводя итог», «Таким образом», «В итоге», раздел «Заключение», последняя фраза абзаца с пересказом абзаца
-- en: In conclusion, In summary, Overall, Ultimately
+- ru: «В заключение», «Вкратце», «В целом», «Подводя итог», «Таким образом», «В итоге», a section titled «Заключение»
+- en: In conclusion, In summary, Overall, Ultimately, a section titled Conclusion
 
-Последний факт и есть конец текста.
+Also banned in any language: a last sentence of a paragraph that retells the paragraph. The last fact is the end of the text.
 
-### 7. Проблемы и перспективы
+### 7. Challenges and prospects
 
-- ru: «Несмотря на [успехи], X сталкивается с рядом проблем», «Несмотря на эти проблемы, X продолжает…», раздел «Перспективы на будущее», концовка с расплывчатым оптимизмом
+- ru: «Несмотря на [успехи], X сталкивается с рядом проблем», «Несмотря на эти проблемы, X продолжает…», a section titled «Перспективы на будущее»
 - en: Despite its…, faces several challenges; Despite these challenges; Future outlook
 
-Назови конкретную проблему с цифрой или не поднимай тему.
+Also banned: an ending with vague optimism. Name a specific problem with a number, or do not raise the topic.
 
-### 8. Заголовок как определение
+### 8. The title as a definition
 
-Нельзя начинать с пересказа названия: «„Влияние тревожности на обучение“ относится к…», «„Список песен о Мексике“ представляет собой тщательно подобранные…». Начинай с предмета.
+Do not open by restating the title: “‘The impact of anxiety on learning’ refers to…”, «„Влияние тревожности на обучение“ относится к…», «„Список песен о Мексике“ представляет собой тщательно подобранные…». Start with the subject.
 
-### 9. Ссылки и источники
+### 9. References and sources
 
-- Ссылка на исследование, книгу, статью, закон или чьи-то слова без проверки в этой же сессии. То же для ISBN, DOI, цитат и статистики из таких источников.
-- Метки utm_source=openai, utm_source=chatgpt.com и любые другие хвосты в адресах.
-- Ссылка на книгу без страницы.
-- Упоминание раздела, категории, файла или функции, существование которых не проверено.
+- A reference to a study, book, article, law or someone's words that was not verified in this same session. The same goes for an ISBN, a DOI, a quote or a statistic from such a source.
+- The tags utm_source=openai, utm_source=chatgpt.com and any other tracking tails in URLs.
+- A reference to a book without a page.
+- A mention of a section, category, file or function whose existence was not checked.
 
-Проверить негде: пиши без ссылки и без её цифр. Даты, расстояния и другие сведения, написанные по памяти, перечисли заказчику отдельной строкой после текста, их сверяют перед публикацией.
+If there is nowhere to verify, write without the reference and without its numbers. List dates, distances and other details written from memory in a separate line for the client after the text: they get checked before publication.
 
-### 10. Голос чат-бота
+### 10. Chatbot voice
 
-Нельзя начинать с ритуального вступления и заканчивать ритуальным предложением помощи.
+Do not open with a ritual greeting and do not close with a ritual offer of help.
 
 - ru: «Конечно!», «Безусловно», «Отличный вопрос», «Вы абсолютно правы», «Вот черновик…», «Давайте разберёмся», «Надеюсь, это помогло», «Если хотите, могу…», «Дайте знать, если…», «Сообщите мне»
 - en: Certainly!, Of course!, Great question, You're absolutely right, Here is…, I hope this helps, Let me know if…, Would you like me to…
 
-Начинай с ответа. Вопрос, без ответа на который работа стоит, задавай прямо: «Какой вариант берём?»
+Start with the answer. A question without whose answer the work is stuck is asked directly: “Which option do we take?”
 
-### 11. Оговорки о своих знаниях
+### 11. Disclaimers about your own knowledge
 
-- ru: «на момент моего обучения», «по состоянию на [дата] сведений нет», «на основе имеющейся информации», «в доступных источниках», «конкретные детали ограничены», «не задокументировано широко», догадка со словом «вероятно» на месте данных
-- en: as of my last update, based on available information, while specific details are limited, not widely documented
+- ru: «на момент моего обучения», «по состоянию на [дата] сведений нет», «на основе имеющейся информации», «в доступных источниках», «конкретные детали ограничены», «не задокументировано широко», a guess with «вероятно» in place of data
+- en: as of my last update, based on available information, while specific details are limited, not widely documented, a guess with “probably” in place of data
 
-Нет данных: одна фраза «не нашёл» и ничего сверху. Догадку не выдавай за сведения.
+No data: one phrase, “I didn't find it”, and nothing on top. Do not pass a guess off as information.
 
-### 12. Письма по шаблону
+### 12. Template letters
 
-- ru: «Тема: …» в теле письма, «Надеюсь, это письмо застанет вас в добром здравии», «Я пишу, чтобы выразить глубокую обеспокоенность…», незаполненные поля в квадратных скобках
-- en: I hope this message finds you well, I am writing to express…
+- ru: «Тема: …» inside the body of the letter, «Надеюсь, это письмо застанет вас в добром здравии», «Я пишу, чтобы выразить глубокую обеспокоенность…»
+- en: “Subject: …” inside the body of the letter, I hope this message finds you well, I am writing to express…
 
-Первая фраза письма содержит просьбу или новость.
+Also banned: unfilled fields in square brackets. The first sentence of a letter carries the request or the news.
 
-### 13. Синтаксис
+### 13. Syntax
 
-- Деепричастие с чужим подлежащим: «используя этот метод, результаты улучшаются». Действующее лицо в обеих частях одно, иначе перестрой фразу.
-- Цепочки деепричастий, канцелярит («в целях обеспечения», «осуществляет деятельность», «в рамках») и плеоназмы («окружающая среда вокруг нас»).
-- Противопоставление ради эффекта: «не только X, но и Y», «это не просто X, это Y», «не ради X, а ради Y». Скажи сразу Y.
-- Тройки ради ритма: три прилагательных, три существительных, три короткие фразы подряд.
-- Диапазон «от X до Y», когда между X и Y нет шкалы. Перечисли предметы.
-- Размытые авторитеты: «эксперты считают», «по мнению специалистов», «некоторые критики утверждают», «отраслевые отчёты показывают», «описывается как», «представляет интерес для исследователей». en: experts say, some critics argue, industry reports, is widely regarded as.
-- Синонимы на месте имени или термина, чтобы избежать повтора.
+- A participle clause whose subject differs from the subject of the main clause: “Using this method, the results improve”, «используя этот метод, результаты улучшаются». The actor is the same in both parts, otherwise rebuild the sentence.
+- Chains of participles, officialese and pleonasms. Officialese: «в целях обеспечения», «осуществляет деятельность», «в рамках», “in order to facilitate”, “with regard to”, “for the purpose of”. Pleonasm: «окружающая среда вокруг нас», “the surrounding environment around us”.
+- Contrast for effect: «не только X, но и Y», «это не просто X, это Y», «не ради X, а ради Y», “not only X but also Y”, “it's not just X, it's Y”. Say Y straight away.
+- Triples for rhythm: three adjectives, three nouns, three short sentences in a row.
+- A range “from X to Y” («от X до Y») when there is no scale between X and Y. List the items.
+- Vague authorities: «эксперты считают», «по мнению специалистов», «некоторые критики утверждают», «отраслевые отчёты показывают», «описывается как», «представляет интерес для исследователей». en: experts say, some critics argue, industry reports, is widely regarded as.
+- Synonyms in place of a name or a term to avoid repeating it.
 
-### 14. Оформление
+### 14. Formatting
 
-- Длинное тире не ставится нигде. Короткое тире с пробелами и дефис с пробелами на его месте тоже запрещены. Ставь запятую, двоеточие, скобки, точку или перестрой фразу. Числовой диапазон пишется коротким тире без пробелов: 100–200 ккал, 1417–1420.
-- Жирный шрифт внутри обычного текста не используется.
-- Список нужен только тому, что по природе список: шаги, файлы, варианты. Пункт вида «жирный заголовок, двоеточие, пояснение» запрещён. Эмодзи в роли маркеров и заголовков запрещены.
-- В заголовке с заглавной буквы пишется первое слово и имена собственные. В английском действует то же (sentence case).
-- Разметка соответствует месту показа. В письме, мессенджере, строке интерфейса и сообщении коммита нет звёздочек, решёток и линий из дефисов.
-- Кавычки те, что приняты в языке текста: в русском «ёлочки», в английском “двойные”. В коде и командах кавычки прямые.
+- The long dash (U+2014) is not used anywhere. A short dash with spaces and a hyphen with spaces in its place are banned too. Use a comma, a colon, parentheses or a period, or rebuild the sentence. A numeric range takes a short dash without spaces: 100–200 kcal, 1417–1420.
+- Bold is not used inside running text.
+- A list is only for what is a list by nature: steps, files, options. An item shaped as “bold heading, colon, explanation” is banned. Emoji as bullets or headings are banned.
+- In a heading only the first word and proper names are capitalized. The same holds in English (sentence case).
+- Markup matches the place where the text is shown. A letter, a messenger, an interface string and a commit message have no asterisks, hash signs or lines of hyphens.
+- Quotation marks are the ones the language of the text uses: «ёлочки» in Russian, “double” in English. In code and commands quotes are straight.
 
-## Проверка перед отправкой
+## Check before sending
 
-Перечитай готовый текст и ответь на шесть вопросов. Каждое «да» означает переписать фразу, а не заменить слово.
+Reread the finished text and answer six questions. Every “yes” means the sentence gets rewritten: replacing a word is not enough.
 
-1. Есть оборот из стоп-листа или его синоним?
-2. Есть предложение, которое вычёркивается без потери факта?
-3. Есть длинное тире, жирный шрифт в тексте, пункт списка с заголовком?
-4. Текст кончается итогом, моралью или предложением помощи?
-5. Есть утверждение, ссылка или цифра без проверки?
-6. Есть пара «не X, а Y», тройка, диапазон «от и до»?
+1. Is there a phrase from the stop list or a synonym of one?
+2. Is there a sentence that can be struck out without losing a fact?
+3. Is there a long dash, bold in running text, a list item with a heading?
+4. Does the text end with a summary, a moral or an offer of help?
+5. Is there a claim, a reference or a number that was not verified?
+6. Is there a “not X but Y” pair, a triple, a “from X to Y” range?
 
-## Отговорки
+## Excuses
 
-| Отговорка | Что на самом деле |
+| Excuse | What is actually true |
 |---|---|
-| «Это официальный текст, там так принято» | Официальный стиль требует точности, её дают факты. Пафос и канцелярит выдают генерацию и там. |
-| «Я заменил слово синонимом» | Приём остался. Перестрой фразу. |
-| «Тире здесь требует пунктуация» | Перестрой фразу так, чтобы тире не требовалось. |
-| «Без вывода текст обрывается» | Читатель уже всё прочёл. Последний факт и есть конец. |
-| «С жирным и списком удобнее читать» | Содержание по природе список: делай список без заголовков в пунктах. Иначе пиши абзацем. |
-| «Просили продающий текст» | Продаёт конкретика: цифра, срок, цена, пример. |
-| «Это короткий ответ в чате» | Правила действуют при любом объёме. |
-| «Цифру из исследования я помню, проверить негде» | Пиши без неё и скажи заказчику, какую цифру стоит найти. |
+| “This is an official text, that is how they are written” | Official style demands precision, and precision comes from facts. Pathos and officialese give generation away there too. |
+| “I replaced the word with a synonym” | The device is still there. Rebuild the sentence. |
+| “Punctuation requires a dash here” | Rebuild the sentence so that no dash is required. |
+| “Without a conclusion the text breaks off” | The reader has already read everything. The last fact is the end. |
+| “Bold and a list make it easier to read” | If the content is a list by nature, make a list without headings in the items. Otherwise write a paragraph. |
+| “They asked for a selling text” | Specifics sell: a number, a deadline, a price, an example. |
+| “This is a short chat reply” | The rules apply at any length. |
+| “I remember the number from a study, there is nowhere to check it” | Write without it and tell the client which number is worth finding. |
 
-## Про детекторы
+## About detectors
 
-GPTZero, GigaCheck и похожие сервисы считают статистику текста и ошибаются в обе стороны, об этом сказано в самом эссе. Гарантии, что текст их пройдёт, эти правила не дают. Они убирают то, по чему текст опознаёт читатель.
+GPTZero, GigaCheck and similar services compute the statistics of a text and err in both directions, the essay itself says so. These rules give no guarantee that a text passes them. They remove what a reader recognizes the text by.
 
-Портить текст ради детектора запрещено: никаких намеренных опечаток, невидимых символов и подмены букв похожими.
+Damaging a text for the sake of a detector is banned: no deliberate typos, no invisible characters, no swapping letters for look-alikes.

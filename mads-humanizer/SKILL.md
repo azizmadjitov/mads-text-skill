@@ -15,6 +15,8 @@ Breaking the letter of a rule is breaking the rule. Replacing a banned phrase wi
 
 Other people's quotes, code and proper names are not edited. A direct instruction from the user about format or wording outranks this list.
 
+When the text is an interface string (a button, a title, a field label, an error, a push) and the mads-uxwrite skill is loaded, mads-uxwrite decides the shape of the string: its length, sentence structure, voice and typesetting. This skill keeps deciding the words: the stop list, sources and chatbot voice. An error message of three short sentences written by the rules of mads-uxwrite is not a triple.
+
 ## How to write
 
 1. First decide what exactly you are reporting. If there is no fact, number, name or example, find one or do not write the sentence.
@@ -99,7 +101,7 @@ Do not open by restating the title: “‘The impact of anxiety on learning’ r
 - A reference to a book without a page.
 - A mention of a section, category, file or function whose existence was not checked.
 
-If there is nowhere to verify, write without the reference and without its numbers. List dates, distances and other details written from memory in a separate line for the client after the text: they get checked before publication.
+If there is nowhere to verify, write without the reference and without its numbers. Dates, distances and other details written from memory get checked before publication, so list them for the client. If you deliver the text in the chat, put the list after the text as a separate line. If the text goes into a file, a commit message, a string catalog or code, put the list in the chat reply and keep it out of that file.
 
 ### 10. Chatbot voice
 

@@ -138,12 +138,12 @@ Also banned: unfilled fields in square brackets. The first sentence of a letter 
 
 ### 14. Formatting
 
-- The long dash (U+2014) is not used anywhere. A short dash with spaces and a hyphen with spaces in its place are banned too. Use a comma, a colon, parentheses or a period, or rebuild the sentence. A numeric range takes a short dash without spaces: 100–200 kcal, 1417–1420.
+- The long dash (U+2014) is not used anywhere. A short dash with spaces and a hyphen with spaces in its place are banned too. Use a comma, a colon, parentheses or a period, or rebuild the sentence. In an interface string parentheses are not an option. A numeric range takes a short dash without spaces: 100–200 kcal, 1417–1420.
 - Bold is not used inside running text.
 - A list is only for what is a list by nature: steps, files, options. An item shaped as “bold heading, colon, explanation” is banned. Emoji as bullets or headings are banned.
-- In a heading only the first word and proper names are capitalized. The same holds in English (sentence case).
+- In a heading a capital goes to the first word, to proper names and to words that the spelling of the language capitalizes, such as German nouns. English headings follow the same rule (sentence case).
 - Markup matches the place where the text is shown. A letter, a messenger, an interface string and a commit message have no asterisks, hash signs or lines of hyphens.
-- Quotation marks are the ones the language of the text uses: «ёлочки» in Russian, “double” in English. In code and commands quotes are straight.
+- Quotation marks are the ones the language of the text uses: «ёлочки» in Russian, “double” in English. In code and commands the quotes that belong to the syntax are straight. Text inside a string that a person will read keeps the quotes of its language: `"title": "Тариф «Pro»"`.
 
 ## Check before sending
 
